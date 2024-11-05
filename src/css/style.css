@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: var(--Grey-900);
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user-links-profile {
+    background-color: var(--Grey-800);
+    width: 45rem;
+    height: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.user-infos, .user-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+.user-infos .avatar-img {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+.user-infos .user-name {
+    color: var(--White);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.user-infos .user-location {
+    color: var(--Green);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.user-infos .about {
+    color: var(--White);
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+.user-links a {
+    background-color: var(--Grey-700);
+    color: var(--White);
+    padding: 1.5rem;
+    width: 30rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.user-links a::hover {
+    background-color: var(--Green);
+    color: var(--Black);
+}
+
+.footer {
+    color: var(--White);
+    font-size: 1.5rem;
+}
