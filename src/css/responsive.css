@@ -1,0 +1,10 @@
+@media (max-width: 425px) {
+    .user-links-profile {
+        width: 90%;
+        height: 90%;
+    }
+
+    .footer {
+        font-size: 1.2rem;
+    }
+}

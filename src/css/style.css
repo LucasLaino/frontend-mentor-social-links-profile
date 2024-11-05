@@ -13,8 +13,9 @@ body {
 
 .user-links-profile {
     background-color: var(--Grey-800);
-    width: 45rem;
-    height: 65rem;
+    max-width: 45rem;
+    max-height: 55rem;
+    padding: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,6 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding-top: 2rem;
 }
 
 .user-infos .avatar-img {
@@ -49,14 +49,19 @@ body {
 
 .user-infos .about {
     color: var(--White);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.user-links {
     padding-top: 2rem;
 }
 
 .user-links a {
     background-color: var(--Grey-700);
     color: var(--White);
-    padding: 1.5rem;
+    padding: 1rem;
     width: 30rem;
     text-align: center;
     font-size: 1.5rem;
@@ -65,7 +70,7 @@ body {
     transition: 0.3s;
 }
 
-.user-links a::hover {
+.user-links a:hover {
     background-color: var(--Green);
     color: var(--Black);
 }
